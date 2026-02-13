@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Pages/Home";
-import Login from "./Pages/Login";
-import EmailVerify from "./Pages/EmailVerify";
-import ResetPassword from "./Pages/ResetPassword";
-import Error from "./Pages/Error";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import EmailVerify from "./pages/EmailVerify";
+import ResetPassword from "./pages/ResetPassword";
+import Error from "./pages/Error";
 import { ToastContainer } from "react-toastify";
 
 function App() {
