@@ -26,3 +26,5 @@ app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
 
 app.listen(port, () => console.log(`server started AT port : ${port}`));
+
+module.exports = app;
